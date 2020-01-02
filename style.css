@@ -63,11 +63,17 @@ body {
     font-size: 15px;
 }
 
+
+.topNav {
+    margin-top: 1%;
+    position: relative;
+}
+
+
 .about {
-    margin-top: 2%;
-    margin-left: 2%;
     font-size: 15px;
     color: rgb(82, 82, 82);
+    margin: 0;
 }
 
 a {
@@ -75,11 +81,69 @@ a {
     text-decoration: none;
 }
 
-.about p{
+.about li{
+    margin-left: 1%;
+    font-size: 14px;
     display: inline;
-    margin-right: 1%;
 }
 
-.about p:hover {
+li:hover {
     text-decoration: underline;
+}
+
+.rightNav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 2%;
+}
+
+.rightNav ul {
+    margin: 0;
+}
+
+.rightNav ul li {
+    display: inline;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.rightNav img {
+    filter: invert(60%) sepia(9%) saturate(7%) hue-rotate(11deg) brightness(89%) contrast(86%);   
+}
+
+#signInButton {
+    padding: 8px 15px 8px 15px;
+    background-color: rgb(0, 102, 255);
+    border-radius: 3px;
+}
+
+#signInButton a {
+    color: white;
+}
+
+.footer {
+    background-color: rgb(245, 244, 252);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.leftFooter li{
+    display: inline;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.rightFooter {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.rightFooter li {
+    display: inline;
+    font-size: 14px;
+    padding-left: 10px;
 }
